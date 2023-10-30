@@ -1,7 +1,6 @@
-const post = require('./post');
+const Post = require('./post');
 
-class gazette extends post {
-
+class Gazette extends Post {
 }
 
-module.exports = gazette;
+module.exports = Gazette;

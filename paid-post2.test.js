@@ -1,4 +1,4 @@
-const PaidPost = require('./paid-post');
+const PaidPost = require('./paidpost');
 const User = require('./user');
 const Client = require('./client');
 

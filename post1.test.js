@@ -1,4 +1,4 @@
-const Post = require('./post.js');
+const Post = require('./post');
 
 test('Create a Post', () => {
   const post = new Post('Total JS');

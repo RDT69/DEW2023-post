@@ -1,6 +1,6 @@
-const paidpost = require('./paid-post');
+const Paidpost = require('./paidpost');
 
-class newspaper extends paidpost {
+class Newspaper extends Paidpost {
   district;
 
   constructor(name, price, district) {
@@ -8,8 +8,8 @@ class newspaper extends paidpost {
     this.district = district;
   }
 
-  get sumary() {
-    return `${super.sumary}  of ${this.district}`;
+  get summary() {
+    return `${super.summary} of ${this.district}`;
   }
 }
-module.exports = newspaper;
+module.exports = Newspaper;
